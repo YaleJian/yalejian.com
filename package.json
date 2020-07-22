@@ -10,11 +10,11 @@
     "qrcode.react": "^1.0.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
-    "react-router": "latest",
+    "react-router": "^5.0.1",
     "react-router-dom": "^5.0.1",
     "react-scripts": "3.4.1",
     "normalize.css": "8.0.1",
-    "yale-ui": "0.1.21"
+    "yale-ui": "0.1.23"
   },
   "scripts": {
     "start-original": "react-scripts start",

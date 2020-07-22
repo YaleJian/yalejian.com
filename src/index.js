@@ -12,6 +12,7 @@ import EatToday from "./pages/EatToday/EatToday";
 import Weather from "./pages/Weather/Weather";
 import Hf from "./pages/CloudPlayer/CloudPlayer";
 import Chat from "./pages/Chat/Chat";
+import UI from "./pages/UI/UI";
 
 let root = <React.Fragment>
     <Login/>
@@ -19,6 +20,7 @@ let root = <React.Fragment>
         <Switch>
             <Route exact path={'/'} component={Base}/>
             <Route path={'/appDownload'} component={AppDownload}/>
+            <Route path={'/ui'} component={UI}/>
             <Route path={'/eatToday'} component={EatToday}/>
             <Route path={'/photo/:c/:g/'} component={Photo}/>
             <Route path={'/photo'} component={Photo}/>
