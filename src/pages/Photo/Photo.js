@@ -3,7 +3,7 @@ import './photo.css';
 import Header from "../common/Header";
 import Main from "../common/Main";
 import {Icon} from "yale-ui";
-import {cosList} from "yale-ui";
+import {cosList} from "../../utils/qCloudUtils";
 import {Link} from "react-router-dom";
 
 /**

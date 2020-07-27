@@ -1,6 +1,6 @@
 import React from "react";
 import axios from 'axios';
-import {Progress} from 'yale-ui'
+import Progress from 'yale-ui';
 import {Message} from "yale-ui";
 // 设置超时时间
 axios.defaults.timeout = 10000;
@@ -39,8 +39,8 @@ axios.interceptors.response.use(config => {
         </div>);
     } else {
         // Something happened in setting up the request that triggered an Error
-        Message(error.message,false, true);
+        Message(error.message, false, true);
     }
     return Promise.reject(error)
 });
-export default axios;
+export {axios};

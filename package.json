@@ -1,6 +1,6 @@
 {
-  "name": "yaleui",
-  "version": "0.1.2",
+  "name": "yalejian.com",
+  "version": "0.2.0",
   "private": true,
   "main": "../../CrossPlatform/electron/main.js",
   "dependencies": {

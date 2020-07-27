@@ -1,8 +1,8 @@
 import React from 'react';
 import './cloudPlayer.css'
-import {cosList} from "yale-ui";
+import {cosList} from "../../utils/qCloudUtils";
 import {Button} from "yale-ui";
-import {axios} from "yale-ui";
+import {axios} from "../../utils/Axios";
 import {Message} from "yale-ui";
 
 /**

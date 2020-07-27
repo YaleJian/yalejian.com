@@ -2,7 +2,7 @@ import React, {Component} from 'react'
 import Header from "../common/Header";
 import Main from "../common/Main";
 import "./weather.css";
-import {axios} from "yale-ui";
+import {axios} from "../../utils/Axios";
 import {result} from "yale-ui";
 import {Icon} from "yale-ui";
 import {Message} from "yale-ui";
