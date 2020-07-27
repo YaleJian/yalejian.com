@@ -4,7 +4,7 @@ import './index.css';
 import * as serviceWorker from './serviceWorker';
 import {Route, Switch} from "react-router";
 import {BrowserRouter} from "react-router-dom";
-import {Login} from "yale-ui";
+import {UI,Login} from "yale-ui";
 import Base from "./pages/common/Base";
 import AppDownload from "./pages/AppDownload/AppDownload";
 import Photo from "./pages/Photo/Photo";
@@ -12,7 +12,6 @@ import EatToday from "./pages/EatToday/EatToday";
 import Weather from "./pages/Weather/Weather";
 import Hf from "./pages/CloudPlayer/CloudPlayer";
 import Chat from "./pages/Chat/Chat";
-import UI from "./pages/UI/UI";
 
 let root = <React.Fragment>
     <Login/>

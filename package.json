@@ -14,7 +14,7 @@
     "react-router-dom": "^5.0.1",
     "react-scripts": "3.4.1",
     "normalize.css": "8.0.1",
-    "yale-ui": "0.1.30"
+    "yale-ui": "0.1.36"
   },
   "scripts": {
     "start-original": "react-scripts start",
