@@ -315,7 +315,7 @@ class Weather extends Component {
             } else if (index > 1 && index < 3) {
                 return "周" + weekName[tDate.getDay()];
             } else {
-                return tDate.getMonth() + "." + tDate.getDate();
+                return (tDate.getMonth() + 1) + "." + tDate.getDate();
             }
         },
         //天气状况
