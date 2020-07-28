@@ -1,7 +1,6 @@
 import React from "react";
 import axios from 'axios';
-import Progress from 'yale-ui';
-import {Message} from "yale-ui";
+import {Message,Progress} from "yale-ui";
 // 设置超时时间
 axios.defaults.timeout = 10000;
 
