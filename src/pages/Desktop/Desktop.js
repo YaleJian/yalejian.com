@@ -1,5 +1,5 @@
 import React from 'react';
-import {Icon} from "yale-ui";
+import {Brand, Icon} from "yale-ui";
 import {Input} from "yale-ui";
 import {Link} from "react-router-dom";
 import {Button} from "yale-ui";
@@ -43,7 +43,7 @@ class Desktop extends React.Component {
             </Link>
         });
         return <React.Fragment>
-            <Header children={"扬歌的分享"}/>
+            <Brand name={"扬歌YaleJian"}/>
             <div className={"ya-homePage"}>
                 <div className={"ya-h-search"}>
                     <Input type="search" className="ya-h-search-input right" placeholder={"搜索网页"}
