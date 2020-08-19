@@ -53,8 +53,9 @@ class Menu extends Component {
                               }}
                         />
                     </div>
-                    <Button className={"white toggle"} content={<Icon name={this.state.isShow ? "i-BAI-zuojiantou" : "i-BAI-youjiantou"}/>}
-                            onClick={this.toggle.bind(this)}/>
+                    <Button className={"white toggle"} onClick={this.toggle.bind(this)}>
+                        <Icon name={this.state.isShow ? "i-BAI-zuojiantou" : "i-BAI-youjiantou"}/>
+                    </Button>
                 </div>
 
             </React.Fragment>

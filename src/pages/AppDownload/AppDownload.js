@@ -19,14 +19,16 @@ class AppDownload extends Component {
                     <div className={"desc"}>轻装上线</div>
                     <div className={"downloadBtn"}>
                         <a href={"http://file.yalejian.com/download/YaleJian.apk"} >
-                            <Button className={"green"} content={<React.Fragment><Icon name={"i-Android"}/><span>Android</span><Icon name={"i-download"}/></React.Fragment>}/>
+                            <Button className={"green"}><React.Fragment><Icon name={"i-Android"}/><span>Android</span><Icon name={"i-download"}/></React.Fragment></Button>
                         </a>
-                        <Button className={"green"} content={<React.Fragment><Icon name={"i-ios"}/><span>IOS</span><Icon name={"i-download"}/></React.Fragment> }/>
+                        <Button className={"green"}><React.Fragment><Icon name={"i-ios"}/><span>IOS</span><Icon name={"i-download"}/></React.Fragment></Button>
                         <a href={"http://file.yalejian.com/download/YaleJian.dmg"} >
-                            <Button className={"green"} content={<React.Fragment><Icon name={"i-mac1"}/><span>MacOS</span><Icon name={"i-download"}/></React.Fragment>}/>
+                            <Button className={"green"}><React.Fragment><Icon name={"i-mac1"}/><span>MacOS</span><Icon name={"i-download"}/></React.Fragment></Button>
                         </a>
                         <a href={"http://file.yalejian.com/download/YaleJian.exe"} >
-                            <Button className={"green"} content={<React.Fragment><Icon name={"i-win"}/><span>Windows</span><Icon name={"i-download"}/></React.Fragment>}/>
+                            <Button className={"green"}>
+                                <React.Fragment><Icon name={"i-win"}/><span>Windows</span><Icon name={"i-download"}/></React.Fragment>
+                            </Button>
                         </a>
                     </div>
                     <div className={"updateInfo"}>

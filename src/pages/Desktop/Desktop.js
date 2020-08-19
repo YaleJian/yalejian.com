@@ -38,8 +38,8 @@ class Desktop extends React.Component {
         ];
         let apps = data.map((app) => {
             return <Link to={app.link} key={app.name}>
-                <div><Button className={"app radius " + app.bg} content={<Icon name={app.icon}/>}/></div>
-                <div className={"appName"}><Button className={"white"} content={app.name}/></div>
+                <div><Button className={"app radius " + app.bg}><Icon name={app.icon}/></Button></div>
+                <div className={"appName"}><Button className={"white"}>{app.name}</Button></div>
             </Link>
         });
         return <React.Fragment>

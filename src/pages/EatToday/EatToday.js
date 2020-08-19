@@ -11,13 +11,13 @@ class EatToday extends React.Component{
             <Main>
                 <div className={"ya-eatToday"}>
                     <div className={"make"}>
-                        <Button content={"生成菜谱"}/>
+                        <Button>生成菜谱</Button>
                     </div>
                     <div>今日菜谱</div>
                     <div>
 
                     </div>
-                    <Button content={"保存今日菜谱"}/>
+                    <Button>保存今日菜谱</Button>
                 </div>
             </Main>
         </React.Fragment>;

@@ -89,8 +89,9 @@ class CloudPlayer extends React.Component {
                         <div className={"welcome ya-animation-1"}>欢迎进入华富广告播放系统</div>
                         <div className={"systemVersion"}>V{this.state.systemVersion}</div>
                     </div>
-                    <Button className={"radius bootBtn"} content={"按F11全屏后点此启动"}
-                            onClick={this.playNext.bind(this, true)}/>
+                    <Button className={"radius bootBtn"} onClick={this.playNext.bind(this, true)}>
+                        {"按F11全屏后点此启动"}
+                    </Button>
                     <div className={"firstLoading"}>
                         <span>广告资源加载进度：{schedule}</span>
                     </div>
