@@ -22,6 +22,7 @@ class Desktop extends React.Component {
 
     render() {
         let data = [
+            {name: "网址收藏", link: "w", icon: "i-wsc", bg: "grey"},
             {name: "APP下载", link: "appDownload", icon: "i-ziyuan", bg: "grey"},
             {name: "Yale UI", link: "ui", icon: "i-uicn", bg: "grey"},
             {name: "摄影", link: "photo", icon: "i-chongwusheying", bg: ""},
