@@ -422,19 +422,15 @@ strong {
 }
 .height50 {
   height: 50px;
-  line-height: 50px;
 }
 .height100 {
   height: 100px;
-  line-height: 100px;
 }
 .height200 {
   height: 200px;
-  line-height: 200px;
 }
 .height400 {
   height: 400px;
-  line-height: 400px;
 }
 .heightFull {
   height: 100%;
@@ -455,10 +451,10 @@ strong {
 .margin10 {
   padding: 10px;
 }
-.ya-radius5 {
+.radius5 {
   border-radius: 5px;
 }
-.ya-radius10 {
+.radius10 {
   border-radius: 10px;
 }
 .center {
