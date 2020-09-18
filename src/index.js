@@ -4,7 +4,7 @@ import './index.css';
 import * as serviceWorker from './serviceWorker';
 import {Route, Switch} from "react-router";
 import {BrowserRouter} from "react-router-dom";
-import {UI,Login} from "yale-ui";
+import {UI,Login,Brand} from "yale-ui";
 import Base from "./pages/common/Base";
 import AppDownload from "./pages/AppDownload/AppDownload";
 import Photo from "./pages/Photo/Photo";

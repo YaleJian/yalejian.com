@@ -2,7 +2,7 @@ import React from 'react'
 import './photo.css';
 import Header from "../common/Header";
 import Main from "../common/Main";
-import {Icon} from "yale-ui";
+import {Icon,Brand} from "yale-ui";
 import {cosList} from "../../utils/qCloudUtils";
 import {Link} from "react-router-dom";
 
@@ -53,7 +53,7 @@ class Photo extends React.Component {
         }
 
         return <React.Fragment>
-            <Header children={"Photographic Exhibition"} className={"center"}/>
+            <Brand name={"摄影"}/>
             <Main>
                 <div className={"ya-photo"}>
                     <ul className={"p-header"}>{this.pages.header()}</ul>
@@ -143,7 +143,7 @@ class Photo extends React.Component {
                 <Icon className="headPortrait" name={"i-yalejian"}/>
                 <div className={"introduce"}>
                     <div>E-mail：boss@yalejian.com</div>
-                    <div>微信：YangZi_3351</div>
+                    <div>微信：yalejian2020</div>
                     <div>QQ：1558556540</div>
                     <div>微博：扬歌YaleJian</div>
                 </div>

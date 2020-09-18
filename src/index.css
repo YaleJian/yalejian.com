@@ -365,6 +365,7 @@ strong {
   color: #8c8c8c;
   text-align: center;
   width: 100%;
+  z-index: -1;
 }
 .ya-footer .copyright {
   color: #8c8c8c;
@@ -422,15 +423,19 @@ strong {
 }
 .height50 {
   height: 50px;
+  line-height: 50px;
 }
 .height100 {
   height: 100px;
+  line-height: 100px;
 }
 .height200 {
   height: 200px;
+  line-height: 200px;
 }
 .height400 {
   height: 400px;
+  line-height: 400px;
 }
 .heightFull {
   height: 100%;
