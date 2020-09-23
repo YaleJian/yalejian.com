@@ -6,7 +6,7 @@ import {Button} from "yale-ui";
 class EatToday extends React.Component{
 
     render() {
-        return <React.Fragment>
+        return <>
             <Header children={"今天吃什么"} className={"center"}/>
             <Main>
                 <div className={"ya-eatToday"}>
@@ -20,7 +20,7 @@ class EatToday extends React.Component{
                     <Button>保存今日菜谱</Button>
                 </div>
             </Main>
-        </React.Fragment>;
+        </>;
     }
 }
 export default EatToday;

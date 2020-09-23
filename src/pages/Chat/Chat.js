@@ -6,12 +6,12 @@ import Header from "../common/Header";
  */
 class Chat extends React.Component{
     render() {
-        return <React.Fragment>
+        return <>
             <Header children={"聊天"} className={"center"}/>
             <div className={"ya-chat"}>
 
             </div>
-            </React.Fragment>
+            </>
     }
 }
 export default Chat;

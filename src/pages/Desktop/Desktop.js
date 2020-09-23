@@ -43,7 +43,7 @@ class Desktop extends React.Component {
                 <div className={"appName"}><Button className={""}>{app.name}</Button></div>
             </Link>
         });
-        return <React.Fragment>
+        return <>
             <Brand name={"扬歌YaleJian"}/>
             <div className={"ya-homePage"}>
                 <div className={"ya-h-search"}>
@@ -56,7 +56,7 @@ class Desktop extends React.Component {
                 </div>
             </div>
             <Footer/>
-        </React.Fragment>
+        </>
     }
 
 

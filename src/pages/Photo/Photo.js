@@ -52,7 +52,7 @@ class Photo extends React.Component {
                 break;
         }
 
-        return <React.Fragment>
+        return <>
             <Brand name={"摄影"}/>
             <Main>
                 <div className={"ya-photo"}>
@@ -60,7 +60,7 @@ class Photo extends React.Component {
                     {photos}
                 </div>
             </Main>
-        </React.Fragment>
+        </>
     }
 
     componentDidMount() {

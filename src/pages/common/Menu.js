@@ -36,7 +36,7 @@ class Menu extends Component {
 
         let toggleClass = this.state.isShow ?  " animated fastest fadeInDownSmall" : " hide" ;
         return (
-            <React.Fragment>
+            <>
                 <div className={this.state.isShow ? "ya-menu" : "ya-menu  hide"}>
                     <div className={"content" + toggleClass}>
                         <Tree treeData={menuData}
@@ -58,7 +58,7 @@ class Menu extends Component {
                     </Button>
                 </div>
 
-            </React.Fragment>
+            </>
         );
     }
 

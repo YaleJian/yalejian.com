@@ -19,15 +19,15 @@ class AppDownload extends Component {
                     <div className={"desc"}>轻装上线</div>
                     <div className={"downloadBtn"}>
                         <a href={"http://file.yalejian.com/download/YaleJian.apk"} >
-                            <Button className={"green"}><React.Fragment><Icon name={"i-Android"}/><span>Android</span><Icon name={"i-download"}/></React.Fragment></Button>
+                            <Button className={"green"}><><Icon name={"i-Android"}/><span>Android</span><Icon name={"i-download"}/></></Button>
                         </a>
-                        <Button className={"green"}><React.Fragment><Icon name={"i-ios"}/><span>IOS</span><Icon name={"i-download"}/></React.Fragment></Button>
+                        <Button className={"green"}><><Icon name={"i-ios"}/><span>IOS</span><Icon name={"i-download"}/></></Button>
                         <a href={"http://file.yalejian.com/download/YaleJian.dmg"} >
-                            <Button className={"green"}><React.Fragment><Icon name={"i-mac1"}/><span>MacOS</span><Icon name={"i-download"}/></React.Fragment></Button>
+                            <Button className={"green"}><><Icon name={"i-mac1"}/><span>MacOS</span><Icon name={"i-download"}/></></Button>
                         </a>
                         <a href={"http://file.yalejian.com/download/YaleJian.exe"} >
                             <Button className={"green"}>
-                                <React.Fragment><Icon name={"i-win"}/><span>Windows</span><Icon name={"i-download"}/></React.Fragment>
+                                <><Icon name={"i-win"}/><span>Windows</span><Icon name={"i-download"}/></>
                             </Button>
                         </a>
                     </div>
