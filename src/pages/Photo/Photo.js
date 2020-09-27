@@ -1,6 +1,5 @@
 import React from 'react'
 import './photo.css';
-import Header from "../common/Header";
 import Main from "../common/Main";
 import {Icon,Brand} from "yale-ui";
 import {cosList} from "../../utils/qCloudUtils";

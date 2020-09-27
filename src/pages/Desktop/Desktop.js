@@ -1,10 +1,9 @@
 import React from 'react';
-import {Brand, Icon} from "yale-ui";
+import {Brand} from "yale-ui";
 import {Input} from "yale-ui";
 import {Link} from "react-router-dom";
 import {Button} from "yale-ui";
 import './desktop.css';
-import Header from "../common/Header";
 import Footer from "../common/Footer";
 
 /**
