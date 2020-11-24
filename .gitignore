@@ -1,8 +1,6 @@
-# Created by .ignore support plugin (hsz.mobi)
-.idea/*
-yaleui.iml
+.idea
+*.iml
 node_modules
 build
 package-lock.json
 .DS_Store
-yaleUI-React.iml
