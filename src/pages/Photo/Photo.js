@@ -1,6 +1,6 @@
 import React from 'react'
 import './photo.css';
-import Main from "../common/Main";
+import Main from "../layout/Main";
 import {Icon,Brand} from "yale-ui";
 import {cosList} from "../../utils/qCloudUtils";
 import {Link} from "react-router-dom";

@@ -5,7 +5,7 @@ import * as serviceWorker from './serviceWorker';
 import {Route, Switch} from "react-router";
 import {BrowserRouter} from "react-router-dom";
 import {UI,Login} from "yale-ui";
-import Base from "./pages/common/Base";
+import HomePage from "./pages/layout/HomePage";
 import AppDownload from "./pages/AppDownload/AppDownload";
 import Photo from "./pages/Photo/Photo";
 import EatToday from "./pages/EatToday/EatToday";
@@ -17,7 +17,7 @@ let root = <>
     <Login/>
     <BrowserRouter>
         <Switch>
-            <Route exact path={'/'} component={Base}/>
+            <Route exact path={'/'} component={HomePage}/>
             <Route path={'/appDownload'} component={AppDownload}/>
             <Route path={'/ui'} component={UI}/>
             <Route path={'/eatToday'} component={EatToday}/>

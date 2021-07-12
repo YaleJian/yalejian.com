@@ -4,7 +4,7 @@ import Desktop from "../Desktop/Desktop";
 /**
  * 主页
  */
-class Base extends Component {
+class HomePage extends Component {
 
     constructor(props){
         super(props);
@@ -18,4 +18,4 @@ class Base extends Component {
     }
 }
 
-export default Base;
+export default HomePage;
