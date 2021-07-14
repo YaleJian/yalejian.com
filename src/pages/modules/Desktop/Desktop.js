@@ -4,7 +4,7 @@ import {Input} from "yale-ui";
 import {Link} from "react-router-dom";
 import {Button} from "yale-ui";
 import './desktop.css';
-import Footer from "../layout/Footer";
+import Footer from "../../layout/Footer";
 
 /**
  * 桌面

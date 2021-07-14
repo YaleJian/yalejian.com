@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import Desktop from "../Desktop/Desktop";
+import Desktop from "./modules/Desktop/Desktop";
 
 /**
  * 主页

@@ -1,17 +1,17 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import reportWebVitals from './reportWebVitals';
 import './index.css';
-import * as serviceWorker from './serviceWorker';
 import {Route, Switch} from "react-router";
 import {BrowserRouter} from "react-router-dom";
-import {UI,Login} from "yale-ui";
-import HomePage from "./pages/layout/HomePage";
-import AppDownload from "./pages/AppDownload/AppDownload";
-import Photo from "./pages/Photo/Photo";
-import EatToday from "./pages/EatToday/EatToday";
-import Hf from "./pages/CloudPlayer/CloudPlayer";
-import Chat from "./pages/Chat/Chat";
-import WeatherApp from "./pages/WeatherApp/WeatherApp";
+import {UI, Login} from "yale-ui";
+import HomePage from "./pages/HomePage";
+import AppDownload from "./pages/modules/AppDownload/AppDownload";
+import Photo from "./pages/modules/Photo/Photo";
+import EatToday from "./pages/modules/EatToday/EatToday";
+import Hf from "./pages/modules/CloudPlayer/CloudPlayer";
+import Chat from "./pages/modules/Chat/Chat";
+import WeatherApp from "./pages/modules/WeatherApp/WeatherApp";
 
 let root = <>
     <Login/>
@@ -29,9 +29,6 @@ let root = <>
         </Switch>
     </BrowserRouter>
 </>;
-ReactDOM.render(root, document.getElementById('root'));
+ReactDOM.render(<React.StrictMode>{root}</React.StrictMode>, document.getElementById('root'));
 
-// If you want your app to work offline and load faster, you can change
-// unregister() to register() below. Note this comes with some pitfalls.
-// Learn more about service workers: https://bit.ly/CRA-PWA
-serviceWorker.unregister();
+reportWebVitals();

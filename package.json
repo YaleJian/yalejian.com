@@ -1,20 +1,21 @@
 {
   "name": "yalejian.com",
-  "version": "0.2.0beta",
+  "version": "0.2.1beta",
   "private": true,
   "main": "../../CrossPlatform/electron/main.js",
   "dependencies": {
-    "echarts": "^5.1.2",
-    "cos-js-sdk-v5": "^1.2.15",
-    "axios": "^0.21.1",
-    "qrcode.react": "^1.0.1",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-router": "^5.2.0",
     "react-router-dom": "^5.2.0",
     "react-scripts": "^4.0.3",
+    "web-vitals": "^2.1.0",
+    "yale-ui": "^0.2.8",
     "normalize.css": "^8.0.1",
-    "yale-ui": "^0.2.8"
+    "echarts": "^5.1.2",
+    "cos-js-sdk-v5": "^1.2.15",
+    "axios": "^0.21.1",
+    "qrcode.react": "^1.0.1"
   },
   "scripts": {
     "start-original": "react-scripts start",
@@ -27,7 +28,10 @@
     "mock-server": "node ./src/mock/server.js"
   },
   "eslintConfig": {
-    "extends": "react-app"
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
   },
   "browserslist": [
     ">0.2%",
