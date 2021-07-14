@@ -4,6 +4,12 @@
 ##此文件README.md的规范
 这是一个项目说明文件，按照现有的流行程度，采用Markdown格式。
 
+## 使用性能测试工具web vitals
+1.需要安装Chrome插件[Web Vitals](https://chrome.google.com/webstore/detail/web-vitals/ahfhijdlegdabablpippeagghigmibma)
+2.npm install web-vitals
+3.配置reportWebVitals.js
+4.初始化页面前调用reportWebVitals()
+
 ##项目目录
 使用Homebrew [tree](http://mama.indstate.edu/users/ice/tree/tree.1.html) 生成，
 命令：`tree -I node_modules --dirsfirst> tree.text`
