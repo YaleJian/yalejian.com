@@ -1,5 +1,5 @@
 import React from 'react';
-import './eatToday.css'
+import './eatToday.less'
 import Main from "../../layout/Main";
 import {Button} from "yale-ui";
 const EatToday = ()=>{

@@ -1,5 +1,5 @@
 import React from 'react';
-import './cloudPlayer.css'
+import './cloudPlayer.less'
 import {cosList} from "../../../utils/qCloudUtils";
 import {Button} from "yale-ui";
 import {axios} from "../../../utils/Axios";

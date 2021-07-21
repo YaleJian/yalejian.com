@@ -1,5 +1,5 @@
 import React from 'react'
-import './photo.css';
+import './photo.less';
 import Main from "../../layout/Main";
 import {Icon,Brand} from "yale-ui";
 import {cosList} from "../../../utils/qCloudUtils";

@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import {Icon} from "yale-ui";
 import {Button} from "yale-ui";
-import "./appDownload.css";
+import "./appDownload.less";
 /**
  * 下载页面
  */

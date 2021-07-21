@@ -3,7 +3,7 @@ import {Brand} from "yale-ui";
 import {Input} from "yale-ui";
 import {Link} from "react-router-dom";
 import {Button} from "yale-ui";
-import './desktop.css';
+import './desktop.less';
 import Footer from "../../layout/Footer";
 
 /**
