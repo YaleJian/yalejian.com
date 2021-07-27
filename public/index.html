@@ -1,20 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="theme-color" content="#000000" />
+<head>
+    <meta charset="utf-8"/>
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <meta name="theme-color" content="#000000"/>
     <meta
-      name="description"
-      content="yalejian"
+            name="description"
+            content="yalejian"
     />
-    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png"/>
     <!--
       manifest.json provides metadata used when your web app is installed on a
       user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
     -->
-    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json"/>
     <!--
       Notice the use of %PUBLIC_URL% in the tags above.
       It will be replaced with the URL of the `public` folder during the build.
@@ -27,19 +27,65 @@
     <script src="https://at.alicdn.com/t/font_766545_92sxrpkl7bm.js"></script><!--    头像-->
     <script src="https://at.alicdn.com/t/font_724874_09scyx8ipy2n.js"></script>
     <title>扬歌的时光·做我想做的</title>
-  </head>
-  <body>
-    <noscript>You need to enable JavaScript to run this app.</noscript>
-    <div id="root"></div>
-    <!--
-      This HTML file is a template.
-      If you open it directly in the browser, you will see an empty page.
+</head>
+<body>
+<noscript>You need to enable JavaScript to run this app.</noscript>
+<div id="root"></div>
+<!--
+  This HTML file is a template.
+  If you open it directly in the browser, you will see an empty page.
 
-      You can add webfonts, meta tags, or analytics to this file.
-      The build step will place the bundled scripts into the <body> tag.
+  You can add webfonts, meta tags, or analytics to this file.
+  The build step will place the bundled scripts into the <body> tag.
 
-      To begin the development, run `npm start` or `yarn start`.
-      To create a production bundle, use `npm run build` or `yarn build`.
-    -->
-  </body>
+  To begin the development, run `npm start` or `yarn start`.
+  To create a production bundle, use `npm run build` or `yarn build`.
+-->
+<div class="inDevelop">
+    <ul class="slogan">
+        <li>不管你</li>
+        <li>期待不期待</li>
+        <li>网站建设中</li>
+        <button onclick="document.getElementsByClassName('inDevelop')[0].remove()">抢先体验</button>
+    </ul>
+</div>
+</body>
+<style>
+.inDevelop{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(to top, #a8edea 0%, #fed6e3 100%);
+
+}
+.slogan{
+    color: white;
+    padding: 0;
+}
+.inDevelop li{
+    list-style: none;
+    font-size: 50px;
+    line-height: 80px;
+    font-family: "Helvetica Neue",Helvetica,Arial,"Microsoft Yahei","Hiragino Sans GB","Heiti SC","WenQuanYiMicro Hei",sans-serif;
+}
+.inDevelop button{
+    color: #5cccda;
+    border: 1px solid #5cccda;
+    background: white;
+    padding: 4px 6px;
+    text-align: center;
+    transition: all .5s;
+    font-size: 16px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.inDevelop button:hover{
+    background: #d5f2fa;
+}
+</style>
 </html>
