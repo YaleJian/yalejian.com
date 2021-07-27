@@ -60,6 +60,6 @@
    └── reportWebVitals.js
 ├── LICENSE
 ├── README.md
-├── config-overrides.js
+├── craco.config.js
 └── package.json
 ```

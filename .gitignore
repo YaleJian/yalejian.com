@@ -22,6 +22,7 @@
 .idea
 *.iml
 package-lock.json
+yarn.lock
 
 # log
 npm-debug.log*
