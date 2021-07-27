@@ -11,9 +11,9 @@
     "react-scripts": "^4.0.3",
     "web-vitals": "^2.1.0",
     "axios": "^0.21.1",
-    "echarts": "^5.1.2",
     "normalize.css": "^8.0.1",
     "qrcode.react": "^1.0.1",
+    "echarts": "^5.1.2",
     "cos-js-sdk-v5": "^1.2.15",
     "craco-less": "^1.18.0",
     "yale-ui": "^0.2.8"
@@ -44,15 +44,12 @@
   },
   "devDependencies": {
     "typescript": "^3.9.6",
-    "http-proxy-middleware": "^0.20.0",
-    "@craco/craco": "^6.2.0",
-    "compression-webpack-plugin": "^8.0.1",
-    "cors": "^2.8.5",
-    "cos-webpack": "^1.0.6",
-    "craco-vtk": "^1.0.2",
     "express": "^4.17.1",
     "mockjs": "^1.1.0",
-    "simple-progress-webpack-plugin": "^2.0.0"
+    "http-proxy-middleware": "^0.20.0",
+    "cors": "^2.8.5",
+    "@craco/craco": "^6.2.0",
+    "craco-vtk": "^1.0.2"
   },
   "annotation": {
     "proxyLocal": "http://localhost:8081",

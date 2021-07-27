@@ -1,7 +1,6 @@
 const CracoLessPlugin = require('craco-less');
 const path = require('path');
 const pathResolve = pathUrl => path.join(__dirname, pathUrl)
-const CompressionWebpackPlugin = require('compression-webpack-plugin');
 const SimpleProgressWebpackPlugin = require('simple-progress-webpack-plugin')
 const CracoVtkPlugin = require("craco-vtk")
 module.exports = {
@@ -12,17 +11,7 @@ module.exports = {
         plugins: [
             // 打包分析
             // new BundleAnalyzerPlugin(),
-            // 打压缩包
-            new CompressionWebpackPlugin({
-                algorithm: 'gzip',
-                test: new RegExp(
-                    '\\.(' +
-                    ['js', 'css'].join('|') +
-                    ')$'
-                ),
-                threshold: 1024,
-                minRatio: 0.8
-            }),
+
             //打包进度
             new SimpleProgressWebpackPlugin()
         ],
