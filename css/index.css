@@ -33,4 +33,29 @@
   color: white;
   padding: 0;
 }
-/*# sourceMappingURL=inDevelop.css.map */
+body {
+  background: #F1F1F1;
+}
+header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+header .brand {
+  padding: 48px;
+}
+main {
+  display: flex;
+}
+main nav {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+main nav li {
+  display: block;
+  height: 60px;
+  width: 40px;
+  margin: 10px;
+}
+/*# sourceMappingURL=index.css.map */

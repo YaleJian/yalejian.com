@@ -2,22 +2,29 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
     <title>扬歌的时光·Yale Times</title>
     <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.6.0.min.js"></script>
+    <link href="css/index.css" rel="stylesheet" type="text/css">
 </head>
 <body>
 <!--主页-->
 <header>
-    <div>
-        <title>扬歌的时光</title>
-        <title>Yale Times</title>
+    <div class="brand">
+        <div class="title">扬歌的时光</div>
+        <div class="sTitle">Yale Times</div>
     </div>
 </header>
 <main>
     <nav>
-        <a></a>
+        <a>摄影</a>
+        <a>天气</a>
+        <a>下载</a>
     </nav>
 </main>
+<script>
+
+</script>
 <!--维护中-->
 <div class="inDevelop">
     <div class="slogan">
@@ -27,7 +34,13 @@
         <button onclick="hideInDevelop()">抢先体验</button>
     </div>
 </div>
-<link href="inDevelop/inDevelop.css" rel="stylesheet" type="text/css">
-<script src="inDevelop/inDevelop.js"></script>
+<script>
+    //开发中模式
+    const developMode = false
+    let $inDevelop = $('.inDevelop')
+    const hideInDevelop = () => $inDevelop.slideUp('slow')
+    if (developMode) $inDevelop.css("display", "flex")
+</script>
+<!--维护中 end-->
 </body>
 </html>
