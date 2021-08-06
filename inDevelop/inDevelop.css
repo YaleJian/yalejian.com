@@ -1,0 +1,36 @@
+.inDevelop {
+  display: none;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  align-items: center;
+  justify-content: center;
+  background-image: linear-gradient(to top, #a8edea 0%, #fed6e3 100%);
+}
+.inDevelop div {
+  list-style: none;
+  font-size: 50px;
+  line-height: 80px;
+  font-family: "Helvetica Neue", Helvetica, Arial, "Microsoft Yahei", "Hiragino Sans GB", "Heiti SC", "WenQuanYiMicro Hei", sans-serif;
+}
+.inDevelop button {
+  color: #5cccda;
+  border: 1px solid #5cccda;
+  background: white;
+  padding: 4px 6px;
+  text-align: center;
+  transition: all 0.5s;
+  font-size: 16px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.inDevelop button:hover {
+  background: #d5f2fa;
+}
+.inDevelop .slogan {
+  color: white;
+  padding: 0;
+}
+/*# sourceMappingURL=inDevelop.css.map */
