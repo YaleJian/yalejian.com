@@ -1,13 +1,11 @@
 import COS from "cos-js-sdk-v5";
 
 let DefaultBucket = 'yalejian-1252187891';
-let HftBucket = 'hfmedia-1301416202';
 let Region = 'ap-beijing';
-let HfRegion = 'ap-guangzhou';
 
-let getAuthorization = function (options, callback, bucket, server) {
+let getAuthorization = function (options, callback, bucket) {
     // 异步获取临时密钥
-    let url = 'https://yalejian.com/service/qCloud/getSts?bucket=' + bucket + "&server=" + server;
+    let url = 'http://127.0.0.1:8081/service/qCloud/getSts?bucket=' + bucket;
     let xhr = new XMLHttpRequest();
     xhr.open('GET', url, true);
     xhr.onload = function (e) {
@@ -35,13 +33,6 @@ let cos = new COS({
     }
 });
 
-//初始化华富默认COS实例
-let hfCos = new COS({
-    getAuthorization: function (options, callback, server){
-        getAuthorization(options, callback, HftBucket, "hf")
-    }
-});
-
 export var cosUpload = (e, folderName, bucket) => {
     let file = this.files[0];
     if (!file) return;
@@ -57,11 +48,6 @@ export var cosUpload = (e, folderName, bucket) => {
 //获取文件列表
 export var cosList = (folderName, func, delimiter, nextMarker, size) => {
     getFileList(folderName, func, delimiter, nextMarker, size, DefaultBucket, cos, Region);
-};
-
-//华富-获取文件列表
-export var hfCosList = (folderName, func, delimiter, nextMarker, size) => {
-    getFileList(folderName, func, delimiter, nextMarker, size, HftBucket, hfCos, HfRegion);
 };
 
 //获取文件列表方法

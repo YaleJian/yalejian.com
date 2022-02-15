@@ -4,7 +4,7 @@ class Footer extends React.Component {
 
     render() {
         return <div className={"ya-footer"}>
-            © 2021 扬歌YaleJian
+            © 2022 扬歌YaleJian
             | <a className={"copyright"} href="https://beian.miit.gov.cn" target="_blank" rel="noopener noreferrer">苏ICP备18013414号</a>
             | {/*<img className={"publicSafety"} src={"https://www.beian.gov.cn/img/ghs.png"} alt={""}/>*/}
             <a className={"copyright"}

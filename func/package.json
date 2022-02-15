@@ -4,18 +4,19 @@
   "private": true,
   "main": "../../CrossPlatform/electron/main.js",
   "dependencies": {
+    "axios": "^0.21.1",
+    "cos-js-sdk-v5": "^1.2.15",
+    "craco-less": "^1.18.0",
+    "echarts": "^5.1.2",
+    "normalize.css": "^8.0.1",
+    "qrcode.react": "^1.0.1",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-router": "^5.2.0",
     "react-router-dom": "^5.2.0",
     "react-scripts": "^4.0.3",
+    "simple-progress-webpack-plugin": "^2.0.0",
     "web-vitals": "^2.1.0",
-    "axios": "^0.21.1",
-    "normalize.css": "^8.0.1",
-    "qrcode.react": "^1.0.1",
-    "echarts": "^5.1.2",
-    "cos-js-sdk-v5": "^1.2.15",
-    "craco-less": "^1.18.0",
     "yale-ui": "^0.2.8"
   },
   "scripts": {
@@ -43,13 +44,13 @@
     ]
   },
   "devDependencies": {
-    "typescript": "^3.9.6",
-    "express": "^4.17.1",
-    "mockjs": "^1.1.0",
-    "http-proxy-middleware": "^0.20.0",
-    "cors": "^2.8.5",
     "@craco/craco": "^6.2.0",
-    "craco-vtk": "^1.0.2"
+    "cors": "^2.8.5",
+    "craco-vtk": "^1.0.2",
+    "express": "^4.17.1",
+    "http-proxy-middleware": "^0.20.0",
+    "mockjs": "^1.1.0",
+    "typescript": "^3.9.6"
   },
   "annotation": {
     "proxyLocal": "http://localhost:8081",
