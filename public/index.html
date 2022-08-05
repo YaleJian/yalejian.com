@@ -41,5 +41,44 @@
   To begin the development, run `npm start` or `yarn start`.
   To create a production bundle, use `npm run build` or `yarn build`.
 -->
+<!--主页-->
+<div id="homePage" style="display: none">
+    <header>
+        <div class="brand">
+            <div class="title">扬歌的时光</div>
+            <div class="sTitle">Yale Times</div>
+        </div>
+    </header>
+    <main>
+        <nav>
+            <a>摄影</a>
+            <a>天气</a>
+            <a>下载</a>
+        </nav>
+    </main>
+</div>
+
+<script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.6.0.min.js"></script>
+<link href="css/index.css" rel="stylesheet" type="text/css">
+<!--维护中-->
+<div class="inDevelop">
+    <div class="slogan">
+        <div>不管你</div>
+        <div>期待不期待</div>
+        <div>网站建设中</div>
+        <button onclick="hideInDevelop()">抢先体验</button>
+    </div>
+</div>
 </body>
+<script>
+    //开发中模式
+    const developMode = true
+    let $inDevelop = $('.inDevelop')
+    let $root = $('#root')
+    const hideInDevelop = () => {
+        $inDevelop.slideUp('slow')
+        $root.show()
+    }
+    if (developMode) $inDevelop.css("display", "flex")
+</script>
 </html>

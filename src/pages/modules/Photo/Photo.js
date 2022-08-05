@@ -22,17 +22,18 @@ class Photo extends React.Component {
     constructor(props) {
         super(props);
 
+        this.getPhotos()
         this.state = {
             showType: Photo.Loading,
             photoList: [],//全部照片
-            photoData: this.getPhotos(),//图片结构化数据
+            photoData: [],//图片结构化数据
             loadingCount: Photo.PageSize,//需要加载的图片数量，用于分页
         }
     }
 
     render() {
 
-        let photos = "";
+        let photos;
         switch (this.state.showType) {
             case Photo.Loading :
                 photos = this.pages.loading();

@@ -238,7 +238,7 @@ class CloudPlayer extends React.Component {
         let downloadAdList = this.getDownloadAdList(playingAdList);
 
         //下载新的广告
-        downloadAdList.forEach((ad, index) => {
+        downloadAdList.forEach(ad => {
             this.downloadFiles(ad, playingAdList, first);
         });
 
